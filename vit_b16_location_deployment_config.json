@@ -1,0 +1,36 @@
+{
+    "class_names": [
+        "akiec",
+        "bcc",
+        "bkl",
+        "df",
+        "mel",
+        "nv",
+        "vasc"
+    ],
+    "meta_features": [
+        "loc_abdomen",
+        "loc_acral",
+        "loc_back",
+        "loc_chest",
+        "loc_ear",
+        "loc_face",
+        "loc_foot",
+        "loc_genital",
+        "loc_hand",
+        "loc_lower extremity",
+        "loc_neck",
+        "loc_scalp",
+        "loc_trunk",
+        "loc_unknown",
+        "loc_upper extremity"
+    ],
+    "num_classes": 7,
+    "meta_dim": 15,
+    "img_size": 224,
+    "hair_removal": true,
+    "architecture": "ViTLocationClassifier",
+    "backbone": "vit_base_patch16_224",
+    "final_model_name": "vit_b16_location_100_percent_deployment",
+    "trained_on": "100_percent_data"
+}
